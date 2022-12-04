@@ -18,7 +18,7 @@ export default function HolderrDevMainArea() {
             placeholder="Minimum of tokens required"
           />
           <div className="absolute inset-0  flex items-center left-56  md:left-[17rem]">
-            <img className="w-5  " src="/assets/plus.svg" alt="plus" />
+            <img className="w-5  " src="/assets/Plus.svg" alt="plus" />
           </div>
         </div>
         <button className="flex justify-end items-start w-full px-10  ">

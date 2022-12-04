@@ -1,5 +1,5 @@
 import HolderrDevMainArea from "../components/holderrDevMainArea";
-import MainArea from "../components/mainArea";
+
 import NavBar from "../components/navBar";
 
 export default function HolderrDevPage() {
