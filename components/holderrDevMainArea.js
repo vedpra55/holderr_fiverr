@@ -28,6 +28,15 @@ export default function HolderrDevMainArea() {
       <div className="w-full md:w-[34rem] px-2 adGradient h-24 rounded-lg mt-3 flex justify-end items-end">
         <p className="adTextGradient">Advertisement</p>
       </div>
+      <div className="w-full md:w-[20rem] px-2 adGradient rounded-lg mt-3 flex flex-col  items-center py-5">
+        <img
+          className="w-full h-28 object-contain"
+          alt="random"
+          src="https://plus.unsplash.com/premium_photo-1661573111481-da21c4137d0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+        />
+        <p className="mt-5">Days: x left</p>
+        <button className="bg-green-400 px-5 mt-2 py-1 rounded-xl">Pay</button>
+      </div>
     </div>
   );
 }
